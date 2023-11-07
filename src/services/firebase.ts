@@ -13,22 +13,23 @@ interface FirebaseConfig {
 }
 
 const STAGING_FIREBASE_CONFIG: FirebaseConfig = {
-  apiKey: 'AIzaSyBk96Lx1weQcOliPZfc3w2aw1Az8n16E8o',
-  authDomain: 'igbo-api-staging-99a67.firebaseapp.com',
-  projectId: 'igbo-api-staging-99a67',
-  storageBucket: 'igbo-api-staging-99a67.appspot.com',
-  messagingSenderId: '225886570045',
-  appId: '1:225886570045:web:06ec83640f8868f5a04c54',
+  apiKey: 'AIzaSyB31V0Eqe8FkH8GMAUWK438hpVf225BAQ4',
+  authDomain: 'igbo-api-b05b1.firebaseapp.com',
+  projectId: 'igbo-api-b05b1',
+  storageBucket: 'igbo-api-b05b1.appspot.com',
+  messagingSenderId: '555238723314',
+  appId: '1:555238723314:web:f7828470a4f4a048244a6b',
+  measurementId: 'G-WKR30YGKN8',
 };
 
 const PRODUCTION_FIREBASE_CONFIG: FirebaseConfig = {
-  apiKey: 'AIzaSyBDXPLmvu7YEagwdgp_W4uoZhCglbXrG6M',
-  authDomain: 'igbo-api-bb22d.firebaseapp.com',
-  projectId: 'igbo-api-bb22d',
-  storageBucket: 'igbo-api-bb22d.appspot.com',
-  messagingSenderId: '299917108135',
-  appId: '1:299917108135:web:e5053fceeba3155b624c82',
-  measurementId: 'G-YGGV667F2H',
+  apiKey: 'AIzaSyB31V0Eqe8FkH8GMAUWK438hpVf225BAQ4',
+  authDomain: 'igbo-api-b05b1.firebaseapp.com',
+  projectId: 'igbo-api-b05b1',
+  storageBucket: 'igbo-api-b05b1.appspot.com',
+  messagingSenderId: '555238723314',
+  appId: '1:555238723314:web:f7828470a4f4a048244a6b',
+  measurementId: 'G-WKR30YGKN8',
 };
 
 initializeApp(isProduction ? PRODUCTION_FIREBASE_CONFIG : STAGING_FIREBASE_CONFIG);
